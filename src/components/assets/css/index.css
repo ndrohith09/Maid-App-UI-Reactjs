@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Space+Grotesk:wght@300;400&display=swap');
+a {
+    text-decoration: none;
+    color: #006FB9;
+}
+a:hover {
+    color: #006FB9;
+}
+
+/* ========= carousel ========= */
+.sr-only{
+display: none;
+}
+
+
+.nav-item {
+    padding: 7px;
+    font-size: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+}
+.nav-link:hover {
+  border-bottom: 1px solid #006FB9;
+  color: #006FB9;
+}
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    background: white;
+    box-shadow: 1px 3px 7px #1111110f;
+}
+
+/* ============  foooter ============= */ 
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #1A2940;
+  }
+  
+  .footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 300;
+    opacity: 0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity: 0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  }
+  
+  .footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  
+  .footer-links a {
+    font-size: 18px;
+  }
+  
+  .footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .footer-icons a {
+    padding: 2%;
+    font-size: 30px;
+  }
+  
+  
+  /* ============  home content 1 ============= */
+  .bor_header_left {
+    position: relative;
+    display: inline-block;
+    height: 3px;
+    background: #006FB9;
+    width: 40px;
+    border-radius: 43px;
+    margin-right: 2%;
+    top: -3px;
+  }
+  
+  .bor_header_right {
+    position: relative;
+    display: inline-block;
+    height: 3px;
+    background: #006FB9;
+    width: 40px;
+    border-radius: 43px;
+    margin-left: 2%;
+    top: -3px;
+  }
+  
+  .base_header span {
+    color: #006FB9;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    line-height: 1em;
+  }
+  
+  .base_header h3 {
+    margin-top: 2%;
+    line-height: 1.2em;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #1a2940;
+    font-size: 46px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  
+  .base_footer p {
+    color: #656565;
+    line-height: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 5%;
+  }
+
+  .base_footer pre {
+    color: #656565;
+    line-height: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 5%;
+  }
+  
+  @media (max-width: 768px) {
+    .base_header span {
+      font-size: 11px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .base_footer p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .base_header h3 {
+      font-size: 36px;
+    }
+  }
+  
+  /* ============  home content 2 ============= */
+  .steps{
+    background: url('../images/background.png');
+  }
+  .steps img {
+    width: auto;
+  }
+  
+  .steps h4 {
+    font-size: 20px;
+    margin-top: 5%;
+    font-weight: 300;
+  }
+  
+
+  /* ============  home contact form 3 ============= */
+
+  .register-photo {
+    background: url("../images/background.png");
+    padding: 80px 0;
+  }
+  
+  .register-photo .image-holder {
+    display: table-cell;
+    width: auto;
+    background: url("../images/contact.png");
+    background-size: cover;
+  }
+  
+  .register-photo .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  }
+  
+  .register-photo form {
+    display: table-cell;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    color: #505e6c;
+  }
+  
+  @media (max-width:991px) {
+    .register-photo form {
+      padding: 40px;
+    }
+  }
+  
+  .register-photo form h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  
+  .register-photo form .form-control {
+    background: #f7f9fc;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 6px;
+    height: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  
+  .register-photo form .form-check {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  
+  .register-photo form .btn-primary {
+    background: #006fb9;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 35px;
+    font-family: 'Space Grotesk', sans-serif;
+    text-shadow: none;
+    outline: none !important;
+  }
+  
+  .register-photo form .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none;
+  }
+  
+  /* ============  home service categories ============= */
+
+  .category-card img {
+    height: 35vh;
+    background-size: 100%;
+  }
+  
+  .category-card h4 {
+    font-size: 17px;
+    color: #707070;
+    font-family: 'Space Grotesk', sans-serif, sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
+  .category-card-link {
+    text-decoration: none;
+  }
+  
+
+  /* ==================================== home page team mates  ======================== */
+  
+  .team-icons a {
+    font-size: 30px;
+    padding: 4%;
+    color: black;
+  }
+  
+  .team-mates h3 {
+    font-size: 27px;
+    color: #1a2940;
+    padding: 4%;
+  }
+  
+  .team-mates img {
+    height: 45vh;
+    object-fit: cover;
+    width: 90%;
+    box-shadow: 12px 12px 0 0 #006FB9;
+  }
+
+  /* ==================================== home page play store and app store  ======================== */
+  
+.app_store img {
+    width: 90%;
+    object-fit: scale-down;
+  }
+
+.app_store_image img {
+  width: 70%;
+}
+  
+  @media (max-width: 991px) {
+    .app_store_image {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .base_footer {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .base_header {
+      font-size: 40px;
+    }
+  }  
+  
+  /* ==================================== contact us page icons  ======================== */
+  .contact-icons svg {
+    font-size: 32px;
+    color: #006fb9;
+  }
+  
+  .contact-icons label {
+    font-size: 20px;
+    padding-left: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+  
+  /* ==================================== contact us page contact form  ======================== */
+
+  .contact-form h1 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #006fb9;
+    font-family: 'Space Grotesk' , sans-serif;
+  }
+  
+  .contact-form h4 {
+    font-size: 22px;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  
+  .contact-form input {
+    border: none;
+    background: #F7F9FC;
+  }
+  
+  .contact-form textarea {
+    border: none;
+    background: #F7F9FC;
+    min-height: 30vh;
+    max-height: 30vh;
+  }
+  
+  @media screen and (max-width: 425px) {
+    .contact-form h4{
+      font-size: 16px;
+    }
+  }
+  
