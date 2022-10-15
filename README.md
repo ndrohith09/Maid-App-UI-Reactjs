@@ -3,13 +3,15 @@ The project was made using react and bootstrap.
 
 ## Outputs 
 
-![ui1](https://firebasestorage.googleapis.com/v0/b/react-firechat-ae4bf.appspot.com/o/ui-design1.png?alt=media&token=949fe6b5-1e9b-497e-9de5-5d7d1185ed94)
+![ui1](https://firebasestorage.googleapis.com/v0/b/react-firechat-ae4bf.appspot.com/o/ht-1.png?alt=media&token=796b3f7e-074c-4f6f-9f83-a773438203da)
+ 
+![ui2](https://firebasestorage.googleapis.com/v0/b/react-firechat-ae4bf.appspot.com/o/ht-2.png?alt=media&token=cf956ea1-777a-4552-9e58-30684302ab65)
 
-On pressing the `PLACE ORDER` button the promotion modal opens up.
+![ui3](https://firebasestorage.googleapis.com/v0/b/react-firechat-ae4bf.appspot.com/o/ht-3.png?alt=media&token=d70ce429-4d98-4fe2-bb1c-fc013dfebfaa)
 
-![ui2](https://firebasestorage.googleapis.com/v0/b/react-firechat-ae4bf.appspot.com/o/ui-design2.png?alt=media&token=8873b079-c877-4683-bddf-38923e876b43)
+![ui4](https://firebasestorage.googleapis.com/v0/b/react-firechat-ae4bf.appspot.com/o/ht-4.png?alt=media&token=7a806fba-8596-4283-9adb-1b3a8141023c)
 
-**Demo Link :** [https://ui-design.garudatechnology.com/](https://ui-design.garudatechnology.com/)
+**Demo Link :** [https://homietouch.netlify.app/](https://homietouch.netlify.app/)
 
 # How to run
 
