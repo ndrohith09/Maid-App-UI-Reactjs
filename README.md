@@ -14,8 +14,8 @@ On pressing the `PLACE ORDER` button the promotion modal opens up.
 # How to run
 
 ``` bash
-git clone https://github.com/ndrohith09/ui-design.git
-cd ui-design
+git clone https://github.com/ndrohith09/Maid-App-UI-Reactjs.git
+cd Maid-App-UI-Reactjs
 yarn install
 yarn start
 ```
